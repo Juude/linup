@@ -1,1 +1,2 @@
+alias ns=nautilus
 alias shareme='python -m SimpleHTTPServer'
