@@ -6,4 +6,7 @@ sudo apt-get install -y vim
 git config --global core.editor vim
 
 #mysql
-apt-get install python-mysqldb
+sudo apt-get install python-mysqldb
+
+#search
+sudo apt-get install silversearcher-ag
