@@ -1,0 +1,6 @@
+alias p4='ping -c 4'
+p4 baidu.com
+p4 google.com.hk
+p4 facebook.com
+p4 youtube.com
+p4 twitter.com
