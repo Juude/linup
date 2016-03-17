@@ -1,0 +1,6 @@
+version=2.8
+export PATH=$PATH:~/prog/gradle-${version}/bin
+alias gd='gradle --daemon'
+alias gdd='gradle --daemon assembleDebug'
+alias gdbuild='gradle --daemon build'
+alias gdid='gradle installDebug'

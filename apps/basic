@@ -1,0 +1,10 @@
+##vim
+sudo apt-get install -y vim
+git config --global core.editor vim
+
+##git
+sudo apt-get install -y git
+sudo apt-get install -y gitK
+
+##ag
+sudo apt-get install -y silversearcher-ag
