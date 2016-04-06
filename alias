@@ -7,5 +7,10 @@ alias gd='gradle --daemon'
 alias gdd='gradle --daemon assembleDebug'
 alias gdbuild='gradle --daemon build'
 alias gdid='gradle installDebug'
+
+###dump
 alias dumpstore='dumpapp -p com.putao.appstore'
 alias dumplauncher='dumpapp -p com.putao.ptlauncher'
+
+###vps
+#ping 45.63.123.84

@@ -1,0 +1,3 @@
+#TODO:auto get android dir
+ANDROID_DIR=~/Library/Android/sdk/
+export PATH=$PATH:~/git/droidScripts:${ANDROID_DIR}/platform-tools

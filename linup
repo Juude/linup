@@ -1,2 +1,4 @@
+###the startup scripts
 . ~/git/linup/alias
 . ~/git/linup/path
+. ~/git/linup/android/path
