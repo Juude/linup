@@ -12,5 +12,9 @@ alias gdid='gradle installDebug'
 alias dumpstore='dumpapp -p com.putao.appstore'
 alias dumplauncher='dumpapp -p com.putao.ptlauncher'
 
+###mac
+alias findx='find .'
+alias find.='find .'
+
 ###vps
 #ping 45.63.123.84
