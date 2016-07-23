@@ -7,7 +7,7 @@ alias gd='gradle --daemon'
 alias gdd='gradle --daemon assembleDebug'
 alias gdbuild='gradle --daemon build'
 alias gdid='gradle installDebug'
-
+alias grat='gradle tasks'
 ###dump
 alias dumpstore='dumpapp -p com.putao.appstore'
 alias dumplauncher='dumpapp -p com.putao.ptlauncher'
@@ -18,3 +18,19 @@ alias find.='find .'
 
 ###vps
 #ping 45.63.123.84
+
+###git
+alias updatesub='git submodule foreach "git checkout develop && git pull --rebase"'
+alias gsi='git submodule init'
+alias gsu='git submodule update'
+
+###adb
+alias adbh='adb -s emulator-5555'
+alias adbh='adb -s ENU7N15A19024722'
+alias findapk='find . -name \*.apk'
+alias agxml='ag --xml --ignore build'
+alias agjava='ag --java --ignore app/build'
+###android
+alias logerr='adb logcat -s System.err\*'
+alias emun5="emulator @Nexus_5_API_23_2"
+alias shark='java -jar ~/git/droidReverse/ClassyShark.jar'

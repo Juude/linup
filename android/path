@@ -2,3 +2,6 @@
 ANDROID_DIR=~/Library/Android/sdk/
 export PATH=$PATH:~/git/droidScripts:${ANDROID_DIR}/platform-tools:${ANDROID_DIR}/tools
 alias logfatal='adb logcat -s AndroidRuntime'
+alias startnexus='emulator -avd Nexus_5_API_23'
+export PATH=$PATH:~/git/droidReverse:~/git/droidReverse/jadx/bin
+export PATH=$PATH:~/prog/apkpatch-1.0.3
